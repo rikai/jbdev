@@ -789,7 +789,7 @@ section {
 section #title {
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
+  margin: 0 0 20px 0;
   padding: 0 0 5px 0;
 }
 section #title h1 {
@@ -819,6 +819,40 @@ section #title .credits.left {
 section #title .credits.right {
   float: right;
 }
+
+section #footer {
+  border: 0;
+  outline: none;
+  margin: 0 0 50px 0;
+  padding: 0 0 5px 0;
+}
+section #footer h1 {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 36px;
+}
+section #footer p {
+  color: #d7cfbe;
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+section #footer .credits {
+  font-size: 11px;
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #696969;
+  margin-top: -10px;
+}
+section #footer .credits.left {
+  float: left;
+}
+section #footer .credits.right {
+  float: right;
+}+
 
 @media print, screen and (max-width: 720px) {
   #title .credits {
