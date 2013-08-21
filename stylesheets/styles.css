@@ -288,6 +288,7 @@
 .octicon-link:before {
     content: '\f05c'}
 .octicon-link {
+    text-indent: -25px;
     opacity: 0;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
