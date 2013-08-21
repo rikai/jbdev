@@ -955,7 +955,7 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
-h1 {
+h3 {
   font-size: 28px;
 }
 
@@ -967,10 +967,10 @@ h4, h5, h6 {
   color: #e8e8e8;
 }
 
-h3 {
+h1 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #b6b6b6;
 }
@@ -1080,7 +1080,7 @@ hr {
   border: 0;
   outline: none;
   height: 3px;
-  background: transparent url("../images/hr.gif") center center repeat-x;
+  background: transparent url("../images/hr.png") center center repeat-x;
   margin: 0 0 20px;
 }
 
@@ -1182,73 +1182,75 @@ section {
   margin: 20px 0;
   margin-top: 70px;
 }
-section #title {
+#title {
   border: 0;
   outline: none;
   margin: 0 0 20px 0;
   padding: 0 0 5px 0;
 }
-section #title h1 {
+#title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #E8E8E8;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 36px;
 }
-section #title p {
+#title h2 {
   color: #d7cfbe;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
+  margin: 14px 0 23px;
 }
-section #title .credits {
+#title .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
 }
-section #title .credits.left {
+#title .credits.left {
   float: left;
 }
-section #title .credits.right {
+#title .credits.right {
   float: right;
 }
 
-section #footer {
+#footer {
   border: 0;
   outline: none;
   margin: 0 0 50px 0;
   padding: 0 0 5px 0;
 }
-section #footer h1 {
+#footer h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 36px;
 }
-section #footer p {
+#footer p {
   color: #d7cfbe;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
 }
-section #footer .credits {
+#footer .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
 }
-section #footer .credits.left {
+#footer .credits.left {
   float: left;
 }
-section #footer .credits.right {
+#footer .credits.right {
   float: right;
-}+
+}
 
 @media print, screen and (max-width: 720px) {
   #title .credits {
