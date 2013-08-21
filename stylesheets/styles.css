@@ -287,6 +287,16 @@
     content: '\f000'}
 .octicon-link:before {
     content: '\f05c'}
+.octicon-link {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+  }
+.octicon-link:hover{
+    opacity: 1;
+}
 .octicon-link-external:before {
     content: '\f07f'}
 .octicon-list-ordered:before {
