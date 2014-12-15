@@ -3,6 +3,8 @@ Jupiter Dev
 
 Collaboration project for Jupiter Broadcasting development, a repository for the site and for design documents/goals.
 
+* The current spec can be viewed [here](https://github.com/rikai/jbdev/blob/master/SPEC.md).
+
 Notes
 =====
 Both active branches welcome merge requests tha make sense. @rikai and @ChrisLAS have final say on merges.
