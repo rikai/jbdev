@@ -1,4 +1,4 @@
-Jupiter DEv
+Jupiter Dev
 =============
 
 Collaboration project for Jupiter Broadcasting development, a repository for the site and for design documents/goals.
