@@ -7,7 +7,8 @@ These are notes from JB Website Discussion. Feel free to edit and add things.
 * Open Source
   * Possibly on GitHub? http://github.com/jupiterbroadcasting
 * Centralized place for issue queues and discussion
-* Migration from Wordpress to new system
+* Migration from current Wordpress to the new system
+  * Note: This does not preclude continued usage of wordpress as an option and only pertains to migration.
 * Search?
 * Streamline production
 * Mobile support
