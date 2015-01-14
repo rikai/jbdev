@@ -46,7 +46,7 @@ These are notes from JB Website Discussion. Feel free to edit and add things.
   * Travis
 
 ## Calendar
-* Fullcanlder.io can pull calendar from Google Calendar but also any source from anywhere that javascript can parse. 
+* http://fullcalendar.io/ can pull calendar from Google Calendar but also any source from anywhere that javascript can parse. 
 * Like pull data from RSS Feed will also work with some small code base.
 
 
