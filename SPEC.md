@@ -46,8 +46,8 @@ These are notes from JB Website Discussion. Feel free to edit and add things.
   * Travis
 
 ## Calendar
-* Render text-based (?) calendar on site from Google Calendar
-* Possibly from RSS Feed?
+* Fullcanlder.io can pull calendar from Google Calendar but also any source from anywhere that javascript can parse. 
+* Like pull data from RSS Feed will also work with some small code base.
 
 
 # Platform Choice
