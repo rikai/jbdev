@@ -78,3 +78,5 @@ In selecting a platform, we must consider the following:
 * Nanoc
   * http://nanoc.ws
 * Croogo
+* Ghost
+  * https://ghost.org
